@@ -7,6 +7,9 @@ distribution. See
 
   https://github.com/ldc-developers/ldc
 
+ldc comes with all major Linux distributions. It may be an idea, however, to use one
+of the latest releases for development.
+
 ## Command line build with rdmd
 
 D comes with some powerful build tools. For example to build main.d with all its
@@ -16,7 +19,7 @@ dependencies
 
 To view a BAM file
 
-   rdmd -IBioD/ -ofbuild/sambamba main.d view ./BioD/test/data/bins.bam
+  rdmd -IBioD/ -ofbuild/sambamba main.d view ./BioD/test/data/bins.bam
 
 ## Using tags in emacs/vim
 
